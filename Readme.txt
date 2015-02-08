@@ -12,7 +12,7 @@ Ciusan Restrict Widget can show message for user loggedin or for user not logged
 
 == Description ==
 
-**Ciusan Restrict Widget can display the widget that contains shortcodes, link, images or whatever. You can display the widget only for users who are logged or visitors only, or even both.**
+**Ciusan Restrict Widget can show message for user loggedin or for user not loggedin only in widget area**
 
 Features:
 * Can show message for user loggedin only, show message for user not loggedin only, or show message for both users.
