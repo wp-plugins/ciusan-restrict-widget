@@ -1,10 +1,10 @@
 <?php 
 /*
 Plugin Name: Ciusan Restrict Widget
-Plugin URI: 
+Plugin URI: http://plugin.ciusan.com/29/ciusan-restrict-widget/
 Description: Ciusan Restrict Widget can show widget for register user only or for guest only...
 Author: Dannie Herdyawan
-Version: 1
+Version: 1.0
 Author URI: http://www.ciusan.com/
 */
 
