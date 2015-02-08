@@ -17,6 +17,8 @@ Ciusan Restrict Widget can show message for user loggedin or for user not logged
 <li>Can insert shortcode, link, images, or whatever.</li>
 <li>Can insert banner or ads, like adsense.</li></ul>
 
+<a href="http://plugin.ciusan.com/29/ciusan-restrict-widget/">Ciusan Restrict Widget</a>
+
 == Installation ==
 
 This section describes how to install the plugin and get it working.
