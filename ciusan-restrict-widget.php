@@ -60,9 +60,12 @@ function ciusan_restrict_widget_usermeta($user_id_or_email, $string = '%%display
 class ciusan_restrict_widget extends WP_Widget {
 
 	// constructor
-	function ciusan_restrict_widget() {
-		$widget_ops = array('description' => 'Restrict Widget Ciusan.' );
-		parent::WP_Widget(false, __('Restrict Widget Ciusan', 'Ciusan'));   
+	function __construct() {
+		parent::__construct(
+			'ciusan_restrict_widget', // Base ID
+			__('Ciusan Restrict Widget', 'Ciusan'), // Name
+			array('description' => __('Ciusan Restrict Widget can show widget for register user only or for guest only.', 'Ciusan'),) // Args
+		);
 	}
 
 	// widget form creation
