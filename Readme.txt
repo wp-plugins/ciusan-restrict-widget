@@ -12,7 +12,7 @@ Ciusan Restrict Widget can show message for user loggedin or for user not logged
 
 **Ciusan Restrict Widget can show message for user loggedin or for user not loggedin only in widget area**
 
-<h3><strong>Features:</strong></h3>
+<h5><strong>Features:</strong></h5>
 <ul><li>Can show message for user loggedin and show message for user not loggedin.</li>
 <li>Can insert shortcode, link, images, or whatever.</li>
 <li>Can insert banner or ads, like adsense.</li></ul>

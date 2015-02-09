@@ -117,8 +117,7 @@ class ciusan_restrict_widget extends WP_Widget {
 	function widget($args, $instance) {
 		extract($args);
 		global $wpdb, $options, $current_user;
-		$display_name = ciusan_restrict_widget_userinfo($current_user->ID, 'display_name');
-
+		$display_name	= ciusan_restrict_widget_userinfo($current_user->ID, 'display_name');
 		$options		= get_option('ciusan_restrict_widget_option');
 		$title_login	= str_replace('%%display_name%%', $display_name, strip_tags($instance['title_login']));
 		$message_login	= do_shortcode($instance['message_login']);
@@ -130,8 +129,6 @@ class ciusan_restrict_widget extends WP_Widget {
 		if (is_user_logged_in()){
 			if ($title_login) {
 				echo $before_title . $title_login . $after_title;
-				$display_name = ciusan_restrict_widget_userinfo($current_user->ID, 'display_name');
-				$title = str_replace('%%display_name%%', $display_name, strip_tags($user_title));
 				echo $message_login;
 			} else {
 				echo $before_title . 'Hi Welcomeback!' . $after_title;
