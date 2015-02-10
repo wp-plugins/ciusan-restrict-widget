@@ -2,8 +2,8 @@
 Contributors: Dannie Herdyawan
 Donate link: http://www.ciusan.com/submit-donation/
 Tags: ciusan, restrict, user, guest, visitor, login, widget, sidebar, shortcode, ads, advertise, advertisement, title, adsense, banner
-Requires at least: 3.0.1
-Tested up to: 3.4
+Requires at least: 3.2
+Tested up to: 4.1
 Stable tag: 1.0
 
 Ciusan Restrict Widget can show message for user loggedin or for user not loggedin only in widget area.
