@@ -23,8 +23,8 @@ Ciusan Restrict Widget can show message for user loggedin or for user not logged
 
 This section describes how to install the plugin and get it working.
 
-1. Upload `ciusan-restrict-widget` folder to the `/wp-content/plugins/` directory
-2. Activate the plugin through the `Plugins` menu in WordPress
+1. Upload 'ciusan-restrict-widget' folder to the '/wp-content/plugins/' directory
+2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Go to widget then drag and drop the `Restrict Widget Ciusan` widget.
 
 == Screenshots ==
